@@ -2,21 +2,10 @@
 <html lang="es"> <!--elemento raiz --> 
   <head> <!--detras de escena pero no directos: archivos css y jsvascript, titulo, etc. -->
     <title> AppDeGatos</title> <!-- lo mas visible de head -->
-    <!-- <style>
-      h1 {
-        color:aqua;
-      }
-      h2 {
-        color:blue;
-      }
-      ##############separamos este archivo a un archivos css.
-      h3 {
-        color:green;
-      }
-      p {
-        color:magenta;
-      }
-    </style> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Island+Moments&family=Kolker+Brush&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
   </head>
   
   <body> <!-- estructura de la pagina -->
@@ -30,10 +19,10 @@
       <a href="#parrafo-1"> Parrafo 1</a>
       <a href="#parrafo-2"> Parrafo 2</a>
       <a href="#parrafo-3"> Parrafo 3</a>
-      <a href="#parrafo-4"> Parrafo 4</a>
+      <a class="cats-list" href="#parrafo-4"> Parrafo 4</a>
 
       <!-- Imagen como enlace -->
-      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img src="https:bit.ly/fcc-relaxing-cat" alt="Un lindo michi boca abajo"> </a>
+      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img class="imagenCats" src="https:bit.ly/fcc-relaxing-cat" alt="Un lindo michi boca abajo"> </a>
 
 
       <h3 id="parrafo-1"> Parrafo 1</h3>
@@ -51,24 +40,24 @@
       <h3> Listas de gatos</h3>
       <div>
         <p> Cosas que los gatos aman:</p>
-        <ul>
+        <ul class="cats-list">
           <li>Menta gatuna</li>
           <li>Apuntadores láser</li>
           <li>Joder un tio</li>
         </ul>
-        <img src="./images/Ing. Danilo Ramirez-1.jpg" alt="Un papasito 9/10" height="400" weight="550">
+        <img class="inge" src="./images/Ing. Danilo Ramirez-1.jpg" alt="Un papasito 9/10">
       </div> 
       <hr>
 
       <div>
         <p> Cosas que los gatos <em><strong>odian</strong></em>:</p>
-        <ol>
+        <ol class="cats-list">
           <li>Tratamientos antipulgas</li>
           <li>Truenos</li>
           <li><s>Otros gatos</s></li>
         </ol>
       </div>
-      <img src="./images/images.jpeg" alt="gatitos">
+      <img class="imagenCats" src="./images/images.jpeg" alt="gatitos">
 
       <form action="Enviar-respuesta"> 
         <!-- botones check -->

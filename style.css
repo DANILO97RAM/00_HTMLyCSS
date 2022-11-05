@@ -1,0 +1,27 @@
+h1 {
+  font-family: 'Island Moments', cursive;
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'Kolker Brush', cursive;
+  font-size: 30px;
+}
+
+a {
+  font-family: 'Anton', sans-serif;
+}
+
+.imagenCats {
+  width: 300px;
+  border-style: dotted solid dashed double;
+  border-color: blue;
+  border-width: 8px;
+  border-radius: 20px;
+}
+
+.inge {
+  width: 300px ;
+  height: 400px;
+  border-radius: 50%;
+}
