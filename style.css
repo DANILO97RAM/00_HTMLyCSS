@@ -1,3 +1,21 @@
+#Titulo {
+  font-size: 70px;
+  color: green;
+  font-family: "Kolker Brush", cursive,sans-serif;
+}
+.inge {
+  width: 300px ;
+  height: 400px;
+  border-radius: 50%;
+}
+
+/* .footer {
+  background-color: yellow;
+  font-size: 28px;
+  font-family: "Island Moments";
+}
+
+
 h1 {
   font-family: 'Island Moments', cursive;
   font-size: 50px;
@@ -12,16 +30,45 @@ a {
   font-family: 'Anton', sans-serif;
 }
 
-.imagenCats {
-  width: 300px;
-  border-style: dotted solid dashed double;
-  border-color: blue;
-  border-width: 8px;
-  border-radius: 20px;
+#gatitos {
+  border-radius: 50%;
+  border-color: aqua;
+  border-width: 5px;
+  border-style: solid;
 }
+
 
 .inge {
   width: 300px ;
   height: 400px;
   border-radius: 50%;
+}
+
+.listas1
+ {
+  background-color: aqua;
+}
+
+.listas2{
+  background-color: blueviolet;
+}
+
+#listaaman{
+  font-size: 35px;
+  color: black;
+  font-family: "Island Moments";
+}
+#listaodian{
+  font-size: 30px;
+  color: aliceblue;
+} */
+
+.listas2{
+  background-color: crimson;
+}
+
+.imagenCats {
+  background-color: yellow;
+  border-width: 2px;
+  border-color: black;
 }

@@ -9,7 +9,7 @@
   </head>
   
   <body> <!-- estructura de la pagina -->
-    <h1>App de Gatos </h1>
+    <h1 id="Titulo">App de Gatos </h1>
     <main>
       <!-- Ej: 1. Estilo linea 
         <h2 style="color: blue"> imagenes de gatos:</h2>
@@ -22,8 +22,7 @@
       <a class="cats-list" href="#parrafo-4"> Parrafo 4</a>
 
       <!-- Imagen como enlace -->
-      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img class="imagenCats" src="https:bit.ly/fcc-relaxing-cat" alt="Un lindo michi boca abajo"> </a>
-
+      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img class="imagenCats" id="gatitos"  src="https:bit.ly/fcc-relaxing-cat" alt="Un lindo michi boca abajo"> </a>
 
       <h3 id="parrafo-1"> Parrafo 1</h3>
       <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
@@ -38,9 +37,9 @@
       <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet destroy couch.</p>
 
       <h3> Listas de gatos</h3>
-      <div>
+      <div class="listas1">
         <p> Cosas que los gatos aman:</p>
-        <ul class="cats-list">
+        <ul id="listaaman" class="cats-list">
           <li>Menta gatuna</li>
           <li>Apuntadores láser</li>
           <li>Joder un tio</li>
@@ -49,15 +48,16 @@
       </div> 
       <hr>
 
-      <div>
+      <div class="listas2">
         <p> Cosas que los gatos <em><strong>odian</strong></em>:</p>
-        <ol class="cats-list">
+        <ol id="listaodian" class="cats-list">
           <li>Tratamientos antipulgas</li>
           <li>Truenos</li>
           <li><s>Otros gatos</s></li>
         </ol>
+        <img class="imagenCats" src="./images/images.jpeg" alt="gatitos">
       </div>
-      <img class="imagenCats" src="./images/images.jpeg" alt="gatitos">
+      
 
       <form action="Enviar-respuesta"> 
         <!-- botones check -->
@@ -79,9 +79,9 @@
       </form>
   </main>
 
-  <div>
+  <div class="footer">
     <footer>
-      <p> <small>Sin derechos de autor - <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> Danilo ft. FreeCodeCamp </a></small></p>
+      <p> <small>Sin derechos de autor - <a class="footer" href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> Danilo ft. FreeCodeCamp </a></small></p>
     </footer>
   </div>
   </body>
